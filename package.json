@@ -1,0 +1,37 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "landing site practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohdanvysh/sitepractice.git"
+  },
+  "keywords": [
+    "landing",
+    "practice",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Bohdan Vyshnevskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohdanvysh/sitepractice/issues"
+  },
+  "homepage": "https://github.com/bohdanvysh/sitepractice#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
