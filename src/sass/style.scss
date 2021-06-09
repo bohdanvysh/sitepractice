@@ -1,0 +1,12 @@
+@import 'libs/bootstrap-reboot';
+@import 'libs/fonts';
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/buttons';

@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8px;
+    &_nav {
+        margin: 0 100px 0 682px;
+        width: 293px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_link {
+            font-size: 16px;
+            color: #1B365D;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
