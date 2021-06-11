@@ -1,0 +1,48 @@
+.camera-title {
+    margin: 0 0 35px 88px;
+    font-size: 50px;
+    color: #1B365D;
+}
+.camera {
+    min-height: 863px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 40%;
+        right: 0;
+        bottom: 0;
+        left: 0; 
+        background:#D0E8EA;
+    }
+    &_bg {
+        position: absolute;
+        top: -1%;
+        height: 632px;
+        width: 1264px;
+        z-index: 1;
+        background: url('../img/camera_img.jpg');
+    }
+    &_descr {
+        width: 357px;
+        margin: 0 0 56px 171px;
+        z-index: 2;
+        &:last-child {
+            margin-right: 390px;
+        }
+        h3 {
+            font-size: 24px;
+            color: $main-color;
+        }
+        p {
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 23px;
+            color: #434141;
+        }
+    }
+}
