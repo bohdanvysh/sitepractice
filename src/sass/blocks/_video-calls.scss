@@ -1,24 +1,31 @@
 .video-calls {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 158px 210px 280px;
+    img {
+        margin-right: 200px;
+    }
     &_descr {
-        width: 136px;
-        display: flex;
-        justify-content: space-around;
-        &_icon {
-            position: relative;
-            width: 60px;
-            height: 60px;
-            background: #1990FF;
-            border-radius: 50%;
-            img{
-                position: absolute;
-                top: 50%;
-                left: 31%;
-                transform: translateY(-50%);
-                width: 23.75px;
-                height: 23.75px;
+        margin-top: 10px;
+        &_icons {
+            display: flex;
+            justify-content: space-around;
+            width: 140px;
+            margin: 8px 527px 0 0;
+            &_1 {
+                position: relative;
+                width: 60px;
+                height: 60px;
+                background: #1990FF;
+                border-radius: 50%;
+                img{
+                    position: absolute;
+                    top: 50%;
+                    left: 30%;
+                    transform: translateY(-50%);
+                    width: 23.75px;
+                    height: 23.75px;
+                }
             }
             &_2 {
                 position: relative;
@@ -29,13 +36,30 @@
                 img {
                     position: absolute;
                     top: 50%;
-                    left: 31%;
+                    left: 30%;
                     transform: translateY(-50%);
                     width: 23.75px;
                     height: 23.75px;
                 }
             }
-            
+        }
+        h3 {
+            font-weight: 500;
+            font-size: 50px;
+            color: $main-color;
+        }
+        &_main {
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 23px;
+            color: #615E5C;
+        }
+        &_sub {
+            margin-top: 16px;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 18px;
+            color: #AEABA8;
         }
     }
 }
