@@ -1,0 +1,41 @@
+.video-calls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &_descr {
+        width: 136px;
+        display: flex;
+        justify-content: space-around;
+        &_icon {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            background: #1990FF;
+            border-radius: 50%;
+            img{
+                position: absolute;
+                top: 50%;
+                left: 31%;
+                transform: translateY(-50%);
+                width: 23.75px;
+                height: 23.75px;
+            }
+            &_2 {
+                position: relative;
+                width: 60px;
+                height: 60px;
+                background: #25D366;
+                border-radius: 50%;
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 31%;
+                    transform: translateY(-50%);
+                    width: 23.75px;
+                    height: 23.75px;
+                }
+            }
+            
+        }
+    }
+}
