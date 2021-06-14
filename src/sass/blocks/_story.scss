@@ -1,0 +1,41 @@
+.story {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 720px;
+    padding: 0 0 58px 59px;
+    background: url('../img/story_bg.jpg');
+    &_descr-main {
+        color: #fff;
+        padding-left: 24px;
+        height: 204px;
+        border-left: 4px solid;
+        border-radius: 4px;
+        h3 {
+            font-size: 50px;
+            line-height: 55px;
+        }
+        p {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        p:last-child {
+            margin-top: 23px;
+            font-size: 14px;
+        }
+    }
+    &_descr-sub {
+        height: 22px;
+        margin-top: 56px;
+        color: #fff;
+        padding-left: 24px;
+        font-weight: 700;
+        font-size: 17px;
+        border-left: 4px solid #615E5C;
+        border-radius: 4px;
+        &:last-child {
+            margin-top: 16px;
+        }
+    }
+}

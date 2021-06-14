@@ -1,0 +1,37 @@
+.alexa {
+    margin: 90px 0 53px 0;
+    display: flex;
+    justify-content: space-around;
+    &_descr {
+        h3 {
+            margin-top: 13px;
+            font-size: 50px;
+            color: $main-color;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 17px;
+            line-height: 23px;
+            color: #615E5C;
+        }
+        button {
+            margin-top: 46px;
+            width: 127px;
+            height: 46px;
+            border: none;
+            background: #ADD4E0;
+            border-radius: 24px;
+            font-size: 14px;
+            color: $main-color;
+        }
+    }
+    &_img {
+        p {
+            margin-top: 3px;
+            font-size: 11px;
+            line-height: 18px;
+            text-align: center;
+            color: #AEABA8;
+        }
+    }
+}
