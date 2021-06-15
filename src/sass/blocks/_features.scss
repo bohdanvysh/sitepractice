@@ -35,14 +35,11 @@
         }
         &_item:nth-child(2) {
             h3 {
-                color: #FFF;
+                color: $sub-color;
             }
             p {
-                color: #FFF;
+                color: $sub-color;
                 margin-bottom: 15px;
-            }
-            a {
-                color: #FFF;
             }
             background: url('../img/features_item_2.jpg');
         }

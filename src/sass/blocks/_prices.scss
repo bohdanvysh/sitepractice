@@ -32,8 +32,8 @@
         height: 513px;
         background: #F7F7F7;
         &_title {
-            width: 268px;
-            padding: 0 18px 0 18px;
+            width: 305px;
+            padding: 0 18px;
             display: flex;
             justify-content: space-between;
             flex-direction: row;
@@ -48,5 +48,22 @@
         button {
             margin-top: 31px;
         }
+        a:nth-child(2n) {
+            margin: 25px 0 25px 0;
+        }
+    }
+}
+.prices-compare-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 29px 0;
+    background: #D0E7EA;
+    button {
+        width: 193px;
+        height: 46px;
+        background: $sub-color;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 24px;
     }
 }
